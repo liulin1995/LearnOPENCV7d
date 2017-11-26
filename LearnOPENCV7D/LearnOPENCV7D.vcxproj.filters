@@ -14,4 +14,60 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="boy.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageCircle.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageEllipse.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageGray.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageLine.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageRectangle.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imageText.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="mark.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="red_eyes.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="red_eyes2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="chaplin.mp4">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="day1.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day2.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="redEyeRemover.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="haarcascade_eye.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+  </ItemGroup>
 </Project>

@@ -110,6 +110,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Image Include="boy.jpg" />
+    <Image Include="imageCircle.jpg" />
+    <Image Include="imageEllipse.jpg" />
+    <Image Include="imageGray.jpg" />
+    <Image Include="imageLine.jpg" />
+    <Image Include="imageRectangle.jpg" />
+    <Image Include="imageText.jpg" />
+    <Image Include="mark.jpg" />
+    <Image Include="red_eyes.jpg" />
+    <Image Include="red_eyes2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="chaplin.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="day1.cpp" />
+    <ClCompile Include="day2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="redEyeRemover.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="haarcascade_eye.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

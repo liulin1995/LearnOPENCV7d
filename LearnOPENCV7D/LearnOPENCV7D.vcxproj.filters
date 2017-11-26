@@ -45,6 +45,18 @@
     <Image Include="red_eyes2.jpg">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="book1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="book2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="first-image.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="times-square.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="chaplin.mp4">

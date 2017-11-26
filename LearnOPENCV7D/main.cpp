@@ -12,9 +12,10 @@ int mouseHandlingMain();
 int videoMan();
 int affineMain();
 int inverseAffineMain();
-int main()
+int momography();
+int _main()
 {
-	inverseAffineMain();
+	momography();
 	system("pause");
 	return EXIT_SUCCESS;
 }

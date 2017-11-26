@@ -111,7 +111,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Image Include="book1.jpg" />
+    <Image Include="book2.jpg" />
     <Image Include="boy.jpg" />
+    <Image Include="first-image.jpg" />
     <Image Include="imageCircle.jpg" />
     <Image Include="imageEllipse.jpg" />
     <Image Include="imageGray.jpg" />
@@ -121,6 +124,7 @@
     <Image Include="mark.jpg" />
     <Image Include="red_eyes.jpg" />
     <Image Include="red_eyes2.jpg" />
+    <Image Include="times-square.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="chaplin.mp4" />

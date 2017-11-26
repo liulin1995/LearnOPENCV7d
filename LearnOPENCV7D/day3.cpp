@@ -65,3 +65,46 @@ int inverseAffineMain()
 
 	return EXIT_SUCCESS;
 }
+// pts_src and pts_dst are vectors of points in source 
+// and destination images. They are of type vector<Point2f>. 
+// We need at least 4 corresponding points. 
+
+// Mat h = findHomography(pts_src, pts_dst);
+
+// The calculated homography can be used to warp 
+// the source image to destination. im_src and im_dst are
+// of type Mat. Size is the size (width,height) of im_dst. 
+// warpPerspective(im_src, im_dst, h, size);
+int momography()
+{
+	Mat img_src = imread("book1.jpg");
+
+	vector<Point2f> pts_src;
+	pts_src.push_back(Point2f(318, 256));
+	pts_src.push_back(Point2f(534, 372));
+	pts_src.push_back(Point2f(316, 670));
+	pts_src.push_back(Point2f(73, 437));
+
+	Mat img_dst = imread("book2.jpg");
+
+	vector<Point2f> pts_dst;
+	pts_dst.push_back(Point2f(141, 131));
+	pts_dst.push_back(Point2f(480, 159));
+	pts_dst.push_back(Point2f(493, 630));
+	pts_dst.push_back(Point2f(64, 601));
+
+	//calculate the homograghy.
+	Mat h = findHomography(pts_src, pts_dst);
+
+	Mat img_out;
+	// Warp source image to destination based on homography
+	// we can see that both books look in same positon and posture.
+	warpPerspective(img_src, img_out, h, img_dst.size());
+
+	imshow("Source Image", img_src);
+	imshow("Destination Image", img_dst);
+	imshow("Warpped Source Image", img_out);
+
+	waitKey(0);
+	return EXIT_SUCCESS;
+}

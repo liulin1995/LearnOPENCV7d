@@ -10,9 +10,11 @@ int rotation();
 int drawOverImage();
 int mouseHandlingMain();
 int videoMan();
+int affineMain();
+int inverseAffineMain();
 int main()
 {
-	videoMan();
+	inverseAffineMain();
 	system("pause");
 	return EXIT_SUCCESS;
 }

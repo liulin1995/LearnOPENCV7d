@@ -53,16 +53,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="day1.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="day2.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="redEyeRemover.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

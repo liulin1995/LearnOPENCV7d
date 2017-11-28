@@ -79,9 +79,18 @@
     <ClCompile Include="day3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="haarcascade_eye.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="models\haarcascade_frontalface_default.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="models\haarcascade_smile.xml">
       <Filter>资源文件</Filter>
     </Xml>
   </ItemGroup>

@@ -117,6 +117,8 @@
     <Image Include="book1.jpg" />
     <Image Include="book2.jpg" />
     <Image Include="boy.jpg" />
+    <Image Include="digits-classification.jpg" />
+    <Image Include="digits.png" />
     <Image Include="first-image.jpg" />
     <Image Include="imageCircle.jpg" />
     <Image Include="imageEllipse.jpg" />
@@ -137,10 +139,12 @@
     <ClCompile Include="day2.cpp" />
     <ClCompile Include="day3.cpp" />
     <ClCompile Include="day4.cpp" />
+    <ClCompile Include="day5.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="redEyeRemover.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Xml Include="digitClassifierModel.xml" />
     <Xml Include="haarcascade_eye.xml" />
     <Xml Include="models\haarcascade_frontalface_default.xml" />
     <Xml Include="models\haarcascade_smile.xml" />

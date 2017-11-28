@@ -57,6 +57,12 @@
     <Image Include="times-square.jpg">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="digits-classification.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="digits.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="chaplin.mp4">
@@ -82,6 +88,9 @@
     <ClCompile Include="day4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="haarcascade_eye.xml">
@@ -91,6 +100,9 @@
       <Filter>资源文件</Filter>
     </Xml>
     <Xml Include="models\haarcascade_smile.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+    <Xml Include="digitClassifierModel.xml">
       <Filter>资源文件</Filter>
     </Xml>
   </ItemGroup>

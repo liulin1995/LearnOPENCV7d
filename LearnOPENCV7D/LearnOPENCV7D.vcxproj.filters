@@ -91,6 +91,9 @@
     <ClCompile Include="day5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="haarcascade_eye.xml">
